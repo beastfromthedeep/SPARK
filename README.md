@@ -1,37 +1,23 @@
-# SPARK Mission Website — Version 2
+# SPARK Mission Website — Version 3 with figures
 
-Enhanced multi-page static website for **SPARK — Solar Particle Acceleration, Radiation and Kinetics**.
+Enhanced multi-page static website for SPARK with proposal figures included.
 
-## Structure
+## Pages
 
-```text
-index.html          Home
-science.html        Science case and objectives
-mission.html        Mission concept and observing strategy
-instruments.html    LASSAN and HiFI
-data.html           Open science and data products
-team.html           Consortium and collaboration
-outreach.html       Outreach and education
-news.html           News placeholders
-contact.html        Contact information
-styles.css          Shared styling
-script.js           Mobile navigation and reveal animation
-assets/             SVG favicon and social preview image
-.github/workflows/  GitHub Pages deployment workflow
-```
+- `index.html` — Home
+- `science.html` — Science case and objectives
+- `mission.html` — Mission concept and observing strategy
+- `instruments.html` — LASSAN and HiFI
+- `data.html` — Open science and data products
+- `team.html` — Consortium and collaboration
+- `outreach.html` — Outreach and education
+- `news.html` — News placeholders
+- `contact.html` — Contact information
 
-## Local preview
+## Included figures
 
-```bash
-python3 -m http.server 8000
-```
+Optimised copies of the supplied SPARK proposal figures are in `assets/figures/`.
 
-Open `http://localhost:8000`.
+## Deploy
 
-## GitHub Pages
-
-This repository includes a GitHub Actions workflow for Pages deployment. Commit these files to the repository root and GitHub Pages will deploy the site from the `main` branch.
-
-## Editing
-
-Visible text is contained in the individual HTML pages. Shared styling is in `styles.css`.
+Upload the contents of this folder to the repository root. GitHub Pages can deploy directly from `main` and `/ (root)`.
